@@ -1,0 +1,43 @@
+{
+  "name": "DoAnTotNghiep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -r ./node_modules/dotenv/config.js --exec babel-node index.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/server.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/runtime": "^7.7.7",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "exceljs": "^4.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "mssql": "^6.2.3",
+    "multer": "^1.4.2",
+    "node-xlsx": "^0.15.0",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.5",
+    "query-string": "^6.13.7",
+    "regenerator-runtime": "^0.13.7", 
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0"
+  }
+}

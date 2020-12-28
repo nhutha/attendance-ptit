@@ -1,0 +1,9 @@
+node_modules
+images
+package-lock.json
+.vscode
+.env
+
+.history
+dist
+

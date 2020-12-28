@@ -1,0 +1,26 @@
+{
+    "env": {
+		"node": true,
+		"es6": true
+	},
+    "extends" : [
+        "eslint:recommended"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    },
+
+    "rules" : {
+        "quotes" : [
+            1,
+            "double", { "allowTemplateLiterals": true, "avoidEscape": true }
+        ],
+        "no-unused-vars": 1,
+        "no-undef": [
+            1, { "typeof": false}
+        ],
+        "no-multi-spaces": 1
+    }
+}
